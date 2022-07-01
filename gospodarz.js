@@ -61,8 +61,8 @@ let interval = setInterval(() => {
 			time--;
 			document.querySelector("#windowsupdate-counter").innerText = time;
 			if (time === 0) {
-				document.querySelector(".windowsupdate h1").innerText = "Restarting...";
-				document.querySelector(".windowsupdate p").innerText = "Please wait...";
+				document.querySelector(".windowsupdate h1").innerText = "Uruchamianie ponowne...";
+				document.querySelector(".windowsupdate p").innerText = "Proszę czekać...";
 				setTimeout(() => {
 					window.location.reload();
 				}, 1024);
