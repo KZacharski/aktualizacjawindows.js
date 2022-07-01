@@ -10,11 +10,11 @@ let interval = setInterval(() => {
 		document.body.appendChild(overlay);
 		let h = document.createElement("div");
 		h.setAttribute("class", "windowsupdate");
-		h.innerHTML = `<h1>We're sorry, but this is important.</h1>
-			<p>The newest ${window.location.hostname} feature update is ready to install. We need you to kick it off.
-			With new features and apps, this one could take a little longer than other updates.<br><br>
-			Ready? Restart now. Not ready? We will restart for you in <span id="windowsupdate-counter">16</span> seconds.</p>
-			<button onclick="location.reload(true);">Restart now</button>`;
+		h.innerHTML = `<h1>Przepraszamy, ale to jest ważne.</h1>
+			<p>Najnowsza aktualizacja funkcji ${window.location.hostname} jest gotowa do instalacji. Musimy to rozpocząć.
+			Z nowymi funkcjami i aplikcajami, ta aktualizacja może trwać dłużej od innych aktualizacji.<br><br>
+			Gotowy? Uruchom ponownie teraz. Nie gotowy? Uruchomimy ponownie dla ciebie za <span id="windowsupdate-counter">16</span> sekund.</p>
+			<button onclick="location.reload(true);">Uruchom ponownie teraz</button>`;
 		document.body.appendChild(h);
 		let cement = document.createElement("style");
 		cement.innerHTML = `.windowsupdate {
