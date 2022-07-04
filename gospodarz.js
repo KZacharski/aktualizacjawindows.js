@@ -1,6 +1,6 @@
 "use strict";
 
-window.windowsUpdate = 0.9;
+window.windowsUpdate = 1.1;
 
 let interval = setInterval(() => {
 	if (Math.random() > window.windowsUpdate) {
